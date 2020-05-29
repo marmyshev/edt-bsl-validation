@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: 1C:EDT Bsl validator UI
+Bundle-SymbolicName: org.mard.dt.bsl.validation.ui;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Bundle-Activator: org.mard.dt.bsl.validation.ui.Activator
+Require-Bundle: org.eclipse.ui;bundle-version="[3.113.0,4.0.0)",
+ org.eclipse.core.runtime;bundle-version="[3.15.0,4.0.0)",
+ org.eclipse.xtext.ui;bundle-version="[2.18.0,3.0.0)"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: org.mard.dt.bsl.validation.ui
+Bundle-ActivationPolicy: lazy
+Import-Package: com._1c.g5.v8.dt.bsl.model;version="[3.0.0,4.0.0)",
+ com._1c.g5.v8.dt.bsl.ui.quickfix;version="[4.0.0,5.0.0)",
+ org.mard.dt.bsl.validation;version="[0.1.0,0.2.0)"
+Export-Package: org.mard.dt.bsl.validation.ui;version="0.1.0"
+Bundle-Vendor: Dmitriy Marmyshev
